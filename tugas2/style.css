@@ -25,16 +25,12 @@ a:hover {
 a:active {
   color: teal;
 }
-navigation {  
-  background-color:aqua;
-}
+
 p {
   font-size: 110%;
   color: black;
 }
-#contents {
-    float: center;
-}
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -57,7 +53,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: aquamarine;
+  background-color: whitesmoke;
 }
 footer {
   text-align: center;
@@ -65,4 +61,8 @@ footer {
 
 page {
   color: black;
+}
+
+.uid  {
+  color: darkslategray;
 }
