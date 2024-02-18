@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 3| Cek Khodam</title>
+    <meta charset="UTF-8">
+    <meta name="description" contents="blabla">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<script>
+    function cek_khodam(){
+        fname = document.forms[0].fname.value;
+        fangka = document.forms[0].fangka.value;
+        const khodam = ["azdaha", "apep", "dvalin", "guoba", "baron bunny", "vivianne of the lake", 
+        "ninianne of the lake","otter", "narwhal", "andrius", "oz", "hydro tulpa"];
+
+        alert("Hai "+fname+" khodam anda adalah " + khodam[Math.floor(Math.random()*(Math.abs(fangka) % 12))] )
+        }
+</script>
+<body>
+    <header>
+        <nav id="navigation">
+            <ul>
+                <li><a href="">Cek Khodam</a></li>
+                <li>&emsp;&emsp;&emsp;&emsp;</li>
+                <li>&emsp;&emsp;&emsp;&emsp;</li>
+            </ul>
+        </nav>
+    </header>
+    <br></br>
+<form onsubmit="cek_khodam()">
+  Masukkan Nama anda: <input id="fname" type="text" size="20" required/><br></br>
+  Masukkan angka random: <input id="fangka" type="text" size="20" required/><br></br>
+
+  <button name="button">
+    <svg aria-hidden="false" viewBox="0 0 63 1">
+      <img src="Background/pngwing.com.png" style="width:63px;height:63px;">
+    </svg>
+    <br></br>
+    Cek Khodam
+  </button>
+</form>
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <section>
+    <p>UID Genshin: 849064316&emsp;&emsp;</p>
+    <p>NIM : 13222061&emsp;&emsp;</p>
+    <p>Nama: William Gerald Briandelo</p>
+    </section>
+    <footer>
+         
+    </footer>
+</body>
+</html>
